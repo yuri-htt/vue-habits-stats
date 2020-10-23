@@ -1,4 +1,4 @@
-# habits-stats
+# vue-habits-stats
 
 ## Project setup
 ```
