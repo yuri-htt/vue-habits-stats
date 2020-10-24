@@ -7,7 +7,10 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import 'normalize.css'
+
 import HelloWorld from './components/HelloWorld.vue'
+import NavigationBar from './components/organisms/NavigationBar/index.vue'
 
 @Component({
   components: {
