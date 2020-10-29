@@ -1,5 +1,13 @@
 # vue-habits-stats
 
+主な機能
+
+* 習慣ごとに記録
+* 🚧 : リマインド(Webのデスクトップ通知を利用)
+* 🚧 : レスポンシブ
+
+![Group 128](https://user-images.githubusercontent.com/18731884/97543863-2b1a3680-1a0c-11eb-90b1-1ad7471a577d.png)
+
 ## Project setup
 ```
 yarn install
