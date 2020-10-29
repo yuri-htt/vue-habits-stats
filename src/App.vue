@@ -14,6 +14,8 @@
             :values="habit.values"
             :title="habit.title"
             :colorType="habit.colorType"
+            :marked="habit.marked"
+            :onClickMark="onClickMark"
           />
         </div>
       </div>
@@ -38,6 +40,12 @@ import IndividualStatsCard from './components/organisms/IndividualStatsCard.vue'
     IndividualStatsCard
   },
 
+  methods: {
+    onClickMark (id: number) {
+      return console.log('習慣を実行したことをマーク')
+    }
+  },
+
   data () {
     return {
       values: [
@@ -49,6 +57,7 @@ import IndividualStatsCard from './components/organisms/IndividualStatsCard.vue'
         {
           title: '習慣１',
           colorType: 'spring',
+          marked: true,
           values: [
             { '2020-10-04': 1 },
             { '2020-10-14': 2 },
@@ -61,6 +70,7 @@ import IndividualStatsCard from './components/organisms/IndividualStatsCard.vue'
         {
           title: '習慣２',
           colorType: 'ocean',
+          marked: false,
           values: [
             { '2020-10-06': 1 },
             { '2020-10-11': 2 },
